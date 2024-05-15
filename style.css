@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+html {
+    font-size: 12px; /* Reduced from 14px to 12px */
+}
+
+.wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    width: 50vmin; /* Reduced from 60vmin to 50vmin */
+    height: 50vmin; /* Reduced from 60vmin to 50vmin */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.0vmin; /* Reduced row gap */
+}
+
+.button-option {
+    background: #ffffff;
+    height: 15vmin; /* Reduced from 18vmin to 15vmin */
+    width: 15vmin; /* Reduced from 18vmin to 15vmin */
+    border: none;
+    border-radius: 8px;
+    font-size: 8vmin; /* Reduced from 10vmin to 8vmin */
+    color: #d161ff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Reduced shadow for better scale */
+    cursor: pointer;
+}
+
+
+
+#message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8em; /* Reduced from 0.9em to 0.8em */
+    margin-bottom: 23px
+}
+
+.popup.hide {
+    display: none;
+}
